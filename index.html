@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity On Different Planets</title>
+    <link rel="stylesheet" href="SMoppg.css">
+</head>
+<body>
+        <div class="container">
+    <h1>Explore the Cosmos</h1>
+    <div class="planet-buttons">
+        <button onclick="changePlanet('Earth')">Earth</button>
+        <button onclick="changePlanet('Mars')">Mars</button>
+        <button onclick="changePlanet('Saturn')">Saturn</button>
+        <button onclick="changePlanet('Mercury')">Mercury</button>
+        <button onclick="changePlanet('Sun')">Sun</button>
+        <!-- THE SUN IS NOT a PLANET ITS A STAR GOSH DANGIT -->
+    </div>
+    <div class="planet-background" id="planetBackground"></div>
+    <div class="container">
+    <h1>Weight on Different Planets</h1>
+    <input type="number" id="weightInput" placeholder="Enter your weight (in kg)">
+    <button onclick="calculateWeight()">Calculate</button>
+    <div class="planet-weights" id="planetWeights">
+    </div>
+</div>
+
+
+    <script src="somlegave.js"></script>
+</body>
+</html>
